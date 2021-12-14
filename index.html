@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="topnav">
+        <a class="active" href="#home">Home</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+      </div><br><br><br>
+   <div class="from">
+        <form action="">
+        <input type="text" id="todo">
+        <button type="submit" id="btn">ADD TO DO</button><br><br><br>
+    </form> 
+</div>
+<hr>
+        <table class="table table-striped mt-5 text-center" border="1px">
+            <thead>
+              <tr>
+                <th>TODO list</th>
+               
+              </tr>
+            </thead>
+            <tbody id="to-do"></tbody>
+          </table>
+    
+<br><br><br>
+   
+    <button onClick="window.location.reload(); " id="btn2">clear all</button>
+    <footer>
+        copyright by vastcope2100
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
